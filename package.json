@@ -1,0 +1,11 @@
+{
+  "name": "ai-smart-assistant",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A beginner-friendly AI chatbot built with React, Express, and the Gemini API.",
+  "scripts": {
+    "client": "npm --prefix client run dev",
+    "server": "npm --prefix server run dev",
+    "install:all": "npm install --prefix client && npm install --prefix server"
+  }
+}
